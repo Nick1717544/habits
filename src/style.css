@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Varela+Round&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-text
+{
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+    margin: 15px;
+}
+
+.nav
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(186, 186, 186, 0.933);
+    height: 75px;
+}
+
+.track-div
+{
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.track-div > input
+{
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-div > h1
+{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.track-div > p
+{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
